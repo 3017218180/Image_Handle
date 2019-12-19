@@ -19,27 +19,27 @@
 
 高斯卷积函数定义为：
 
-![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/20131109135729171.png)
+![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//20131109135729171.png)
 
 而原始图像f(x,y) 与高斯卷积定义为：
 
-![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/20131109135916953.png)
+![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//20131109135916953.png)
 
 因为：
 
-![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/20131109140039875.png)
+![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//20131109140039875.png)
 
 所以LoG可以通过先对高斯函数进行偏导操作，然后进行卷积求解。公式表示为：
 
-![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/20131109140354671.png)
+![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//20131109140354671.png)
 
 和
 
-![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/20131109140414250.png)
+![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//20131109140414250.png)
 
 因此，我们可以推导出LoG数学形式：
 
-![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/20131109141029625.png)
+![img](/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//20131109141029625.png)
 
 
 
@@ -67,7 +67,7 @@ image.show()
 image.save("./2x.jpg")
 ```
 
-<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/image-20191219211956439.png" alt="image-20191219211956439" style="zoom:50%;" />
+<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//image-20191219211956439.png" alt="image-20191219211956439" style="zoom:50%;" />
 
 #### 最小二乘法
 
@@ -116,7 +116,7 @@ def least_square_method(numpy):
 
 拟合直线如下
 
-<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/image-20191219210912883.png" alt="image-20191219210912883" style="zoom:50%;" />
+<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//image-20191219210912883.png" alt="image-20191219210912883" style="zoom:50%;" />
 
 #### RANSAC法
 
@@ -187,7 +187,7 @@ def RANSAC(SIZE,a,b,ite,sigma,p):
 
 拟合直线如下
 
-<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/image-20191219222430177.png" alt="image-20191219222430177" style="zoom:50%;" />
+<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//image-20191219222430177.png" alt="image-20191219222430177" style="zoom:50%;" />
 
 #### 霍夫变换法
 
@@ -217,7 +217,7 @@ def hough_transform(img):
 
 拟合直线如下
 
-<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/image-20191219214804670.png" alt="image-20191219214804670" style="zoom:50%;" />
+<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//image-20191219214804670.png" alt="image-20191219214804670" style="zoom:50%;" />
 
 #### 实现简单图像寻找直线
 
@@ -225,8 +225,8 @@ def hough_transform(img):
 
 #####霍夫变换法
 
-<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/simple.jpg" alt="simple" style="zoom:65%;" /><img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/image-20191219225612329.png" alt="image-20191219225612329" style="zoom: 25%;" />
+<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/simple.jpg" alt="simple" style="zoom:65%;" /><img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt//image-20191219225612329.png" alt="image-20191219225612329" style="zoom: 25%;" />
 
 ##### 最小二乘法
 
-<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/simple.jpg" alt="simple" style="zoom:65%;" /><img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/image-20191219225920308.png" alt="image-20191219225920308" style="zoom: 25%;" />
+<img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/simple.jpg" alt="simple" style="zoom:65%;" /><img src="/Users/zhb/Desktop/大三课程/图像处理/作业3/md_txt/image-20191219225920308.png" alt="image-20191219225920308" style="zoom: 25%;" />
